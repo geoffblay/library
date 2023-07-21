@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="scripts.js" defer></script>
+</head>
+<body>
+  <!-- Popup Form (hidden by default) -->
+  <div id="popup-form" style="display: none;">
+    <!-- Add form elements here (e.g., input fields, buttons, etc.) -->
+    <form>
+      <label for="title">Title:</label>
+      <input type="text" id="title" name="title"><br><br>
+      <label for="author">Author:</label>
+      <input type="text" id="author" name="author"><br><br>
+      <label for="pages">Pages:</label>
+      <input type="text" id="pages" name="pages"><br><br>
+      <label for="read">Read:</label>
+      <input type="checkbox" id="read" name="read"><br><br>
+      <input type="submit" value="Submit" id="submit-button">
+  </div>
+
+  <!-- Button to open the popup form -->
+  <button id="add-book-button">New Book</button>
+  <div class="library-container"></div>
+</body>
+</html>
